@@ -1,0 +1,62 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.hide {
+    display: none;
+}
+
+#message::-webkit-scrollbar {
+    width: 16px;
+}
+
+#message::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+#message::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    border-radius: 100px;
+    background-color: #ffffff;
+    background-clip: content-box;
+
+}
+
+
+#message:hover::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+#message:hover::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    border-radius: 100px;
+    background-color: #b0afab;
+    background-clip: content-box;
+
+}
+
+#message::-webkit-scrollbar-thumb:hover {
+    background-color: #707072;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
